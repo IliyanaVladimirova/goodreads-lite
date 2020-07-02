@@ -1,0 +1,103 @@
+/*---------------------- HEADER ----------------------*/
+
+header,section{
+    width: 100%;
+    padding: 1.2rem;
+}
+header{
+    background-image: url('../images/masthead_background.jpg');
+    background-repeat: repeat-x;
+    height: 370px;
+    width: 100%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 1220px;
+    margin: 0 auto;
+}
+header input{
+    margin-right: 10px;
+    width: 120px;
+}
+/*----------------------SIGN IN AND PROFILE ----------------------*/
+#sign-in{
+    display: flex;
+}
+#sign-in input{
+width: 130px;
+height: 1.5rem;
+}
+#sign-in button{
+    height: 30px;
+    padding: 0.1rem;
+}
+#profile-link{
+display: flex;
+}
+
+/*---------------------- REGISTRATION ----------------------*/
+section{
+    margin-top: 1.2rem;
+}
+.registration{
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    margin: 0 auto;
+}
+.registration h1{
+    margin-right: 100px;
+}
+.registration form{
+    display: flex;
+    flex-direction: column;
+}
+.registration form input{
+    margin: 0.3rem;
+    width:300px
+}
+.registration button{
+    width: 100px;
+    margin: 0 auto;
+}
+/*---------------------- Media queries ---------------------- */
+@media(max-width: 1200px){
+    .registration{
+        width: 749px;
+    }
+    .header{
+        width: 749px;
+    }
+}
+@media(max-width: 780px){
+    .registration{
+        width: 530px;
+    }
+    .header{
+        width: 530px;
+    }
+    #sign-in{
+        flex-direction: column;
+    }
+    #sign-in button{
+        width: 60px;
+        margin:0 auto;
+    }
+}
+@media(max-width:450px){
+    .registration{
+        width: 300px;
+        flex-direction: column;
+    }
+    .header{
+        width: 300px;
+    }
+    .registration form input{
+        width: 300px;
+    }
+    .registration h1{
+        font-size: 1.5rem;
+    }
+}
+

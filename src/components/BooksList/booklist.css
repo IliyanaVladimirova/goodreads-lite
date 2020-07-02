@@ -1,0 +1,13 @@
+.search-bar{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-bottom: 0.5rem;
+}
+#search button{
+margin-left: 100px;
+}
+#search form{
+    width: 300px;
+    margin: 0 auto;
+}

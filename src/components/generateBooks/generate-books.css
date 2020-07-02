@@ -1,0 +1,24 @@
+.hidden{
+    display: none;
+}
+.flex{
+    display: block;
+}
+img{
+    margin-right:1.2rem
+}
+h5{
+    width:128px;
+    height:100px;
+}
+.books-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.books-container button{
+    margin-bottom: 0.5rem;
+}
+.basis{
+    flex-basis: 150px;
+    margin-bottom: 1.5rem;
+}
