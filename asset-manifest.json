@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/goodreads-lite/static/css/main.ba3ac0bc.chunk.css",
+    "main.js": "/goodreads-lite/static/js/main.a16c4dc9.chunk.js",
+    "main.js.map": "/goodreads-lite/static/js/main.a16c4dc9.chunk.js.map",
+    "runtime-main.js": "/goodreads-lite/static/js/runtime-main.e8d0708f.js",
+    "runtime-main.js.map": "/goodreads-lite/static/js/runtime-main.e8d0708f.js.map",
+    "static/js/2.4bb430c8.chunk.js": "/goodreads-lite/static/js/2.4bb430c8.chunk.js",
+    "static/js/2.4bb430c8.chunk.js.map": "/goodreads-lite/static/js/2.4bb430c8.chunk.js.map",
+    "index.html": "/goodreads-lite/index.html",
+    "precache-manifest.cb44ff136186868f1aa01cf2f53b1f08.js": "/goodreads-lite/precache-manifest.cb44ff136186868f1aa01cf2f53b1f08.js",
+    "service-worker.js": "/goodreads-lite/service-worker.js",
+    "static/css/main.ba3ac0bc.chunk.css.map": "/goodreads-lite/static/css/main.ba3ac0bc.chunk.css.map",
+    "static/js/2.4bb430c8.chunk.js.LICENSE.txt": "/goodreads-lite/static/js/2.4bb430c8.chunk.js.LICENSE.txt",
+    "static/media/header.css": "/goodreads-lite/static/media/masthead_background.2f3141f1.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e8d0708f.js",
+    "static/js/2.4bb430c8.chunk.js",
+    "static/css/main.ba3ac0bc.chunk.css",
+    "static/js/main.a16c4dc9.chunk.js"
+  ]
+}
