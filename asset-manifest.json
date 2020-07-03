@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/goodreads-lite/static/css/main.ba3ac0bc.chunk.css",
-    "main.js": "/goodreads-lite/static/js/main.e37d7ad5.chunk.js",
-    "main.js.map": "/goodreads-lite/static/js/main.e37d7ad5.chunk.js.map",
+    "main.css": "/goodreads-lite/static/css/main.9ef91be4.chunk.css",
+    "main.js": "/goodreads-lite/static/js/main.1574c78f.chunk.js",
+    "main.js.map": "/goodreads-lite/static/js/main.1574c78f.chunk.js.map",
     "runtime-main.js": "/goodreads-lite/static/js/runtime-main.e8d0708f.js",
     "runtime-main.js.map": "/goodreads-lite/static/js/runtime-main.e8d0708f.js.map",
     "static/js/2.4bb430c8.chunk.js": "/goodreads-lite/static/js/2.4bb430c8.chunk.js",
     "static/js/2.4bb430c8.chunk.js.map": "/goodreads-lite/static/js/2.4bb430c8.chunk.js.map",
     "index.html": "/goodreads-lite/index.html",
-    "precache-manifest.f9303a01dcdc95929e9838b3a347131c.js": "/goodreads-lite/precache-manifest.f9303a01dcdc95929e9838b3a347131c.js",
+    "precache-manifest.73c2059ec915e9c3e04bee0fa9dc9706.js": "/goodreads-lite/precache-manifest.73c2059ec915e9c3e04bee0fa9dc9706.js",
     "service-worker.js": "/goodreads-lite/service-worker.js",
-    "static/css/main.ba3ac0bc.chunk.css.map": "/goodreads-lite/static/css/main.ba3ac0bc.chunk.css.map",
+    "static/css/main.9ef91be4.chunk.css.map": "/goodreads-lite/static/css/main.9ef91be4.chunk.css.map",
     "static/js/2.4bb430c8.chunk.js.LICENSE.txt": "/goodreads-lite/static/js/2.4bb430c8.chunk.js.LICENSE.txt",
     "static/media/header.css": "/goodreads-lite/static/media/masthead_background.2f3141f1.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.e8d0708f.js",
     "static/js/2.4bb430c8.chunk.js",
-    "static/css/main.ba3ac0bc.chunk.css",
-    "static/js/main.e37d7ad5.chunk.js"
+    "static/css/main.9ef91be4.chunk.css",
+    "static/js/main.1574c78f.chunk.js"
   ]
 }
