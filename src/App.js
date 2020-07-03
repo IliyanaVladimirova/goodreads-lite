@@ -13,8 +13,9 @@ class App extends Component {
     <Router>
     <div>
       <Header/>
-      <Switch>
-            <Route exact path={"/"} component={BooksList} />
+      <BooksList/>
+            {/* <Route exact path={"/"} component={BooksList} /> */}
+            <Switch>
             <Route path="/myProfile" component={MyProfile} />
       </Switch>
       <Footer/>

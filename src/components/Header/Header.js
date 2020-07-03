@@ -7,12 +7,10 @@ class Header extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            user: {},
             loggedInStatus: "not_logged_in",
         }
         this.handler = this.handler.bind(this)
         this.logout = this.logout.bind(this)
-        this.getUser = this.getUser.bind(this)
     }
     handler() {
         this.setState({
@@ -24,14 +22,6 @@ class Header extends Component {
             loggedInStatus: "not_logged_in"
         })
     }
-    getUser(){
-        // let userObj = JSON.parse(this.props.user) 
-        this.setState({
-            user: this.props.user
-        })
-        console.log(this.props.user)
-        console.log(this.state.user);
-    }
     render() {
         return (
             <header className="container-fluid">
@@ -40,7 +30,6 @@ class Header extends Component {
                     <SignIn
                         logout={this.logout}
                         handler={this.handler}
-                        getUser={this.getUser}
                         loggedInStatus={this.state.loggedInStatus}
                     />
                 </div>

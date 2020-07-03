@@ -32,14 +32,18 @@ class Register extends Component {
             password: this.state.password,
             booksToRead: []
         }
-        if (localStorage.getItem(this.state.email) === null) {
+        if (localStorage.getItem(this.state.email) === null && this.state.password.length >= 5) {
             localStorage.setItem(this.state.email, JSON.stringify(user));
+            alert("You have successfully registered for Goodreads! Welcome!")
             console.log(localStorage);
         }
         else {
-            alert("Email already exists");
-            this.setState({ email: "" });
-            this.setState({ password: "" });
+            if(this.state.password.length < 5) alert("Password must be at least 5 symbols!")
+            else{
+                alert("Email already exists");
+                this.setState({ email: "" });
+                this.setState({ password: "" });
+            }
         }
     }
     render() {

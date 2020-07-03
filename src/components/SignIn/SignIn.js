@@ -9,7 +9,6 @@ class SignIn extends Component {
         this.state = {
             email: "",
             password: "",
-            user:""
         }
         this.handleChangePassword = this.handleChangePassword.bind(this);
         this.handleChangeEmail = this.handleChangeEmail.bind(this);
@@ -19,13 +18,10 @@ class SignIn extends Component {
     handleChangePassword(event) {
         const password = event.target.value;
         this.setState({ password: password });
-        console.log(password);
-
     }
     handleChangeEmail(event) {
         const email = event.target.value;
         this.setState({ email: email });
-        console.log(email);
     }
     handleSubmit(event) {
         event.preventDefault();
@@ -37,13 +33,33 @@ class SignIn extends Component {
             this.setState({ password: "" });
         }
         else {
-            console.log("you have successfully signed in");
-            this.props.handler();
             var currentUser = JSON.parse(localStorage.getItem(this.state.email," "));
-            console.log(currentUser)
-            this.setState({user: currentUser})
-            this.props.getUser()
+            console.log(currentUser["password"])
+            console.log(this.state.password)
+
+            if(currentUser["password"] !== this.state.password){
+                alert("Incorrect password");
+                this.props.logout();
+                this.setState({ email: "" });
+                this.setState({ password: "" });
+            }
+            else{
+                console.log("you have successfully signed in")
+                this.props.handler();
+
+                this.setState({ email: currentUser.email });
+                this.setState({ password: currentUser.password });
+
+                const user = {
+                   "email": this.state.email,
+                   "password": this.state.password,
+                   booksToRead: []
+                };
+                this.props.getUser();
+                console.log(user)
+            }
         }
+
     }
     render() {
         return (
