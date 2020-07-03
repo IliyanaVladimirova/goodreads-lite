@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8c95f332c22484714aa44cf45900797a",
+    "revision": "4fc084fc846637c48f57546b09e89102",
     "url": "/goodreads-lite/index.html"
   },
   {
-    "revision": "cbffd6ada6ba2e2e2e27",
+    "revision": "87c89e1affadd21d979d",
     "url": "/goodreads-lite/static/css/main.ba3ac0bc.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/goodreads-lite/static/js/2.4bb430c8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cbffd6ada6ba2e2e2e27",
-    "url": "/goodreads-lite/static/js/main.a16c4dc9.chunk.js"
+    "revision": "87c89e1affadd21d979d",
+    "url": "/goodreads-lite/static/js/main.e37d7ad5.chunk.js"
   },
   {
     "revision": "7d336c67554bc88c6801",
